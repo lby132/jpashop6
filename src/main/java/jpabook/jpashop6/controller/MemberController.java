@@ -3,12 +3,14 @@ package jpabook.jpashop6.controller;
 import jakarta.validation.Valid;
 import jpabook.jpashop6.domain.Address;
 import jpabook.jpashop6.domain.Member;
+import jpabook.jpashop6.domain.repository.OrderSearch;
 import jpabook.jpashop6.domain.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;

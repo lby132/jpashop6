@@ -1,7 +1,8 @@
-package jpabook.jpashop6.domain.service;
+package jpabook.jpashop6.service;
 
 import jpabook.jpashop6.domain.Member;
 import jpabook.jpashop6.domain.repository.MemberRepository;
+import jpabook.jpashop6.domain.service.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package jpabook.jpashop6.domain.service;
+package jpabook.jpashop6.service;
 
 import jakarta.persistence.EntityManager;
 import jpabook.jpashop6.domain.Address;
@@ -9,6 +9,7 @@ import jpabook.jpashop6.domain.exception.NotEnoughStockException;
 import jpabook.jpashop6.domain.item.Book;
 import jpabook.jpashop6.domain.item.Item;
 import jpabook.jpashop6.domain.repository.OrderRepository;
+import jpabook.jpashop6.domain.service.OrderService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
